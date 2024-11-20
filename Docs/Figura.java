@@ -64,7 +64,12 @@ public abstract class Figura {
          public class ClasePrueba{
              
              public static void main(String[] args) {
-                 
+
+               Figura rectangulo = new Rectangulo (10, 10)
+                Figura circulo = new circulo (5,5)
+
+                   System.out.println ("Area del rectangulo:" + rectangulo.calcularArea() );
+                  System.out.println ("Area del circulo:" + circulo.calcularArea() );
              }
              
          }
